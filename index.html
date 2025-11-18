@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head><meta http-equiv="cache-control" content="no-cache"><meta http-equiv="Pragma" content="no-cache"><meta http-equiv="Expires" content="-1">
+<style type="text/css">
+    h1 {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .container{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .gameBoard{
+        width: 800px;
+        height: 200px; 
+        gap: 12px;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .gameBoard div{
+        width: 148px;
+        height: 200px;
+        border: 1px solid black;
+        margin: 10px;
+        font-size: 2em;
+        background-color: blue;
+    }
+</style>
+
+
+<title>楽しい神経衰弱</title>
+</head>
+<body>
+<!-- Start your code here -->
+<h1>神経衰弱</h1>
+<div class="container">
+    <div id="resultText">クリックして同じ絵柄をそろえよう！！！！</div>
+    <div class="gameBoard" id="gameBoard">
+        
+    </div>
+</div>
+<audio src="C:\Users\user\Desktop\sinkeisuijaku_SE\rightSE.mp3" id="rightSE"></audio><!-- このタグで音を読み込み～ -->
+
+<!-- End your code here -->
+ 
+<script src="C:\Users\user\Desktop\shinkeisuijaku.js"></script>
+</body>
